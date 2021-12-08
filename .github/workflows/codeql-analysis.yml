@@ -13,7 +13,10 @@ Base:name'base'
 run:'"Codeopt.py_Cli"'
 
 on:env 
-build:[push]
+build:[push]_    
+
+#   make bootstrap
+#   make release
 
 on: run
 with:
