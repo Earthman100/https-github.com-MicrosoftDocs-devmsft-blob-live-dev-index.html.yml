@@ -12,7 +12,18 @@
 Base:name'base'
 run:'"Codeopt.py_Cli"'
 
-on:
+on:env 
+build:[push]
+
+on: run
+with:
+env:_PROJECT_ID:
+
+    GKE_CLUSTER: cluster-1
+    GKE_ZONE: us-central1-c
+    DEPLOYMENT_NAME: gke-test
+    IMAGE: static-site
+    CLOUDSDK_METRICS_ENVIRONMENT: github-actions-setup-gcloud
   push:
     branches: [ main ]
   pull_request:
