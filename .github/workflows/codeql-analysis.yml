@@ -9,7 +9,7 @@
 # the `language` matrix defined below to confirm you have the correct set of
 # supported CodeQL languages.
 #
-Base:name'base'
+Base:name_CI'base'
 run:'"Codeopt.py_Cli"'
 
 on:env 
