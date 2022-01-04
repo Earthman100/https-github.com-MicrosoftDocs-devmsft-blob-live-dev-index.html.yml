@@ -19,7 +19,7 @@ build:[push]_
 #   make release
 
 on: run
-with:
+with:gh pr checkout 1582
 env:_PROJECT_ID:
 
     GKE_CLUSTER: cluster-1
