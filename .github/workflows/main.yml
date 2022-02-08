@@ -26,8 +26,8 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: name: Demo Push
+      - name: _Run "- name"
+        run: _name: Demo Push
 
 on:   
   push:
