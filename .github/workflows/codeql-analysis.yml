@@ -1,14 +1,3 @@
-# For most projects, this workflow file will not need changing; you simply need
-# to commit it to your repository.
-#
-# You may wish to alter this file to override the set of languages analyzed,
-# or to provide custom queries or build logic.
-#
-# ******** NOTE ********
-# We have attempted to detect the languages in your repository. Please check
-# the `language` matrix defined below to confirm you have the correct set of
-# supported CodeQL languages.
-#
 Base:name_CI'base'
 run:'"Codeopt.py_Cli"'
 
@@ -47,7 +36,7 @@ jobs:github-actions-setup-gcloud
     strategy:
       fail-fast: false
       matrix:
-        language: [  ]
+        language: [erlang.yml]_https://github.com/Earthman100/https-github.com-users-Earthman100-projects-1-column-15071257/actions/workflows/openshift.yml
         # CodeQL supports [ 'cpp', 'csharp', 'go', 'java', 'javascript', 'python' ]
         # Learn more:
         # https://docs.github.com/en/free-pro-team@latest/github/finding-security-vulnerabilities-and-errors-in-your-code/configuring-code-scanning#changing-the-languages-that-are-analyzed
